@@ -11,16 +11,20 @@
     <div class="login">
         <label for="Username" id="lable-usr">Username:</label>
         <div class="username">
-            <input type="name" id="usr" name="Username">
+            <input type="name" id="usr" name="Username" required>
         </div>
 
         <label for="Username" id="lable-passwd">Passwort:</label>
         <div class="passwd">
-            <input type="password" id="pwd" name="Passwort">
+            <input type="password" id="pwd" name="Passwort" required>
         </div>
 
         <div class="login-btn">
-            <button id="lgn-btn" onclick="checkloginfield()">Login</button>
+            <button class="lgn-btn" onclick="checkloginfield()">Login</button>
+        </div>
+
+        <div class="returntoindex">
+            <button class="lgn-btn" onclick="returntoindex()">Zurück zur Startseite</button>
         </div>
 
     </div>
