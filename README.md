@@ -8,4 +8,4 @@
 ![Mockup](Mockup/Login-Page.JPG "news page")
 
 ### Admin-Page
-![Mockup](Mockup/Login-Page.JPG "news page")
+![Mockup](Mockup/Admin-Page.JPG "news page")
