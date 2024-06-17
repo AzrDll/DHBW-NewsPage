@@ -2,7 +2,7 @@ function checkloginfield(){
     var username = document.getElementById("usr").value;
     var password = document.getElementById("pwd").value;
     if(username == "" || password == ""){
-        alert("exit");
+        alert("Username or Password cannot be empty");
         return false;
     }
 
