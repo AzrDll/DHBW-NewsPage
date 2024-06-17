@@ -10,5 +10,10 @@ function checkloginfield(){
         window.location.replace("admin.html");
         return true;
     }
+
+    if(username != "admin" && password != "admin"){
+        alert("Input valid credentials");
+        return true;
+    }
     return true;
 }
