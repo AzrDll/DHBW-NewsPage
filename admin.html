@@ -1,0 +1,88 @@
+<html lang="de-DE">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="text/javascript" src="addarticle.js" defer></script>
+    <script type="text/javascript" src="article.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="admin.css">
+    <title>T-Offline</title>
+</head>
+<header>
+    <nav>
+        <ul>
+            <li class="img-first"><img src="" alt="error"></li>
+            <li class="img-label">T-Offline</li>
+            <li class="first-kategorie"><a href="Sport.html">Sport</a></li>
+            <li class="second-kategorie"><a href="Technik.html">Technik</a></li>
+            <li class="img2-label"><a href="login.html">Login</a></li>
+            <li class="img2"><img src="" alt="error"></li>
+        </ul>
+    </nav>
+</header>
+<body>
+    <div id="main">
+        <p>
+            Willkommen im Admin Portal! Hier kannst du Nachrichten-Artikel hinzufügen 
+            und die View-Statistiken ansehen.
+        </p>
+        <a href="#">Add news Article</a>
+        <a href="#">Show statistics</a>
+    </div>
+    <div id="addArticleForm">
+        <p>---------------------------------------------------------------</p>
+        <h1>Erstelle einen neuen Artikel</h1>
+        <form action="" id="addArticleForm">
+            <table>
+                <tr>
+                    <td>
+                        <label for="category">Kategorie:</label>
+                    </td>
+                    <td>
+                        <select name="category" id="category" required>
+                            <option value="Sport">Sport</option>
+                            <option value="Technik">Technik</option>
+                        </select><br>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="title">Title:</label>
+                    </td>
+                    <td>
+                        <input type="text" id="title" name="title" required><br>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="abstract">Abstract:</label>
+                    </td>
+                    <td>
+                        <input type="text" id="abstract" name="abstract" required><br>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="image">Image:</label>
+                    </td>
+                    <td>
+                        <input type="file" id="image" name="image" accept="image/*"><br>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="article">Article text:</label>
+                    </td>
+                    <td>
+                        <input type="text" id="article" name="article" required><br>
+                    </td>
+                </tr>
+            </table><br><br>
+            <input type="submit" id="submit"> 
+        </form>
+    </div>
+    <footer>
+
+    </footer>
+</body>
+</html>
