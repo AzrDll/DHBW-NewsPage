@@ -26,11 +26,23 @@ body {
 .login-btn{
     padding: 10px;
     width: 100%;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+}
+
+#lgn-btn:hover{
+    background: #ff0000;
+    color: white;
+}
+
+#lgn-btn{
     background: #1a0293;
     color: white;
     border-radius: 5px;
     cursor: pointer;
-    position: relative;
+    text-align: center;
 }
 
 .footer{
