@@ -7,7 +7,7 @@ function checkloginfield(){
     }
 
     if(username == "admin" && password == "admin"){
-        window.location.replace("index.html");
+        window.location.replace("admin.html");
         return true;
     }
     return true;
