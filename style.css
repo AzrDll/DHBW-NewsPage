@@ -34,14 +34,58 @@ ul :hover{
 }
 
 .img2{
-    margin-left: 20px;
+    margin-left: 15px;
+    padding: 0px;
+}
+
+.img-login{
+    width: 30px;
+    height: 30px;
+}
+
+.img-label{
+    color: white;
 }
 
 .img2-label{
     margin-left: 1000px;
+    padding: 0%;
+}
+
+.image-logo{
+    width: 30px;
+    height: 30px;
 }
 
 iframe{
     width: 100%;
     height: 300px;
 }
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 250px;
+    height: 250px;
+    margin: 30px;
+  }
+  
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  .container {
+    padding: 2px 16px;
+  }
+
+  .news-article{
+    height: 200px;
+    width: 200px;
+  }
+
+  .news{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 100px;
+  }
