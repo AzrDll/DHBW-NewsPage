@@ -18,22 +18,26 @@ body {
 
 }
 
+#lable-usr{
+    color: white;
+}
+
+#lable-passwd{
+    color: white;
+}
+
 .username {
     padding: 5px;
     color: turquoise;
 }
 
 .login-btn{
-    padding: 10px;
-    width: 100%;
     color: white;
-    border-radius: 5px;
-    cursor: pointer;
-    text-align: center;
+    margin: 15px;
 }
 
 #lgn-btn:hover{
-    background: #ff0000;
+    background: #00b7ff;
     color: white;
 }
 

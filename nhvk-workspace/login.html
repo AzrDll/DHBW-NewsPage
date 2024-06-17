@@ -3,21 +3,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="logins.css">
+    <link rel="script" href="login.js">
     <title>Login</title>
 </head>
 <body>
 
     <div class="login">
+        <label for="Username" id="lable-usr">Username:</label>
         <div class="username">
             <input type="name" id="usr" name="Username">
         </div>
 
+        <label for="Username" id="lable-passwd">Passwort:</label>
         <div class="passwd">
             <input type="password" id="pwd" name="Passwort">
         </div>
 
-        <div class="login-btn" align="center">
-            <button id="lgn-btn">Login</button>
+        <div class="login-btn">
+            <button id="lgn-btn" onclick="checkloginfield()">Login</button>
         </div>
 
     </div>
